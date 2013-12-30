@@ -12661,13 +12661,13 @@
 ],
 "roles3": [
 "count",
-"elmo",
-"dorothy",
+{"elmo": 0.1, "dorothy":0.1},
+{"zoe": 0.1, "rosita": 0.1},
 "bert",
 "ernie",
-"abby1",
 "cookie",
-{"zoe": 0.1, "rosita": 0.1}
+"grouch1"
+"abby1",
 ],
 "roles4": [
 "count",
