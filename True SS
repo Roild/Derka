@@ -6,6 +6,7 @@
 "drawmsg": "±Jerry Nelson: Sesame Street became vacant. A veritable ghost town. A shell of its former glory. May the remains of the inhabitants rest in peace.",
     "author": ["Roild", "Meloetta"],
 	"nonPeak": true,
+	"changelog": { "12.31.13": "Pretty extensive fix to prio kills, no more of a slower mafia trying to kill if he was already 'killed' that night. His action would still go through as dummy (a failed kill) for stalking purposes."},
 	"summary": "Now Sesame Street seems like a childish topic, but this is after the events of the show. Years passed, people grew up and had to get actual jobs. Big Bird became a politician, Cookie Monster has become a respected businessman, Ernie became a Private Detective, Elmo is trying to take over for him and Dorothy, his fish, Count and Grouch have become town pariahs, and more members are here to represent Sesame Street. If you find any problems, PM one of the theme authors, Roild or Meloetta / Marill / etc. Lynchmsg may change, not sure yet.",
     "sides": [
         {
@@ -1796,7 +1797,7 @@
                  "night": {
                     "kill": {
                         "command": [
-                            "dummy",
+                            "dummy"
                         ],
                         "common": "Self",
                         "priority": 3,
@@ -2084,7 +2085,7 @@
                  "night": {
                     "kill": {
                         "command": [
-                            "dummy",
+                            "dummy"
                         ],
                         "common": "Self",
                         "priority": 3,
@@ -7130,7 +7131,7 @@
                  "night": {
                     "kill": {
                         "command": [
-                            "dummy",
+                            "dummy"
                         ],
                         "common": "Self",
                         "priority": 3,
@@ -7545,7 +7546,7 @@
                  "night": {
                     "kill": {
                         "command": [
-                            "dummy",
+                            "dummy"
                         ],
                         "common": "Self",
                         "priority": 3,
@@ -8628,7 +8629,7 @@
                  "night": {
                     "kill": {
                         "command": [
-                            "dummy",
+                            "dummy"
                         ],
                         "common": "Self",
                         "priority": 3,
@@ -8839,7 +8840,7 @@
                  "night": {
                     "kill": {
                         "command": [
-                            "dummy",
+                            "dummy"
                         ],
                         "common": "Self",
                         "priority": 3,
