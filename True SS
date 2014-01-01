@@ -17,12 +17,12 @@
         {
             "side": "world",
             "translation": "Elmo's World",
-            "winmsg": "Elmo's world is the only good world. The hard fought battle has ended. He stands on all the fallen puppets on Sesame Street and triumphs. A winner has emerged and Elmo's rule will last forever for Sesame Street is long gone and what remains of it is now renamed to 'Elmo Street' for him and his fish, Dorothy, to play on forever!"
+            "winmsg": "Elmo's world is the only good world. The hard fought battle has ended. ~Players~ stands on all the fallen puppets on Sesame Street and triumphs. A winner has emerged and Elmo's rule will last forever for Sesame Street is long gone and what remains of it is now renamed to 'Elmo Street' for ~Players~ to play on forever!"
         },
     {
 "side": "out",
 "translation": "Outcasts",
-"winmsg": "The Outcasts have destroyed all the dolls in sight (and Dorothy). Only followers of the outcasts are now allowed on the street. The Streets are now filled with trash and everything is methodically numbered."
+"winmsg": "~Players~, the Outcasts have destroyed all the dolls in sight (and Dorothy). Only followers of the outcasts are now allowed on the street. The Streets are now filled with trash and everything is methodically numbered."
 }
     ],
     "roles": [
@@ -373,7 +373,7 @@
                             "distract"
                         ],
                         "common": "Team",
-                        "newRole": { "bertB": ["bert"], "bertAB": ["bertA"], "cookieB": ["cookie"], "cookieAB": ["cookieA"], "ernieB": ["ernie"], "ernieAB": ["ernieA"], "groverB": ["grover", "grover1"], "groverAB": ["groverA"], "rositaB": ["rosita"], "rositaAB": ["rositaA"],  "zoeB": ["zoe"], "zoeAB": ["zoeA"], "elmoB": ["elmo"], "elmoAB": ["elmoA"], "dorothyB":["dorothy"], "dorothyAB":["dorothyA"], "big birdB": ["big bird"], "big bird1B": ["big bird1"], "big bird2B": ["big bird2"], "big bird3B": ["big bird3"], "big bird4B": ["big bird4"], "big bird5B": ["big bird5"], "big bird6B": ["big bird6"], "big bird7B": ["big bird7"], "big birdAB": ["big birdA"], "big bird1AB": ["big bird1A"], "big bird2AB": ["big bird2A"], "big bird3AB": ["big bird3A"], "big bird4AB": ["big bird4A"], "big bird5AB": ["big bird5A"], "big bird6AB": ["big bird6A"], "big bird7AB": ["big bird7A"], "grouch1B": ["grouch1"],  "grouch2B": ["grouch2"]},
+                        "newRole": { "bertB": ["bert"], "countB": ["count"], "countAB": ["countA"], "bertAB": ["bertA"], "cookieB": ["cookie"], "cookieAB": ["cookieA"], "ernieB": ["ernie"], "ernieAB": ["ernieA"], "groverB": ["grover", "grover1"], "groverAB": ["groverA"], "rositaB": ["rosita"], "rositaAB": ["rositaA"],  "zoeB": ["zoe"], "zoeAB": ["zoeA"], "elmoB": ["elmo"], "elmoAB": ["elmoA"], "dorothyB":["dorothy"], "dorothyAB":["dorothyA"], "big birdB": ["big bird"], "big bird1B": ["big bird1"], "big bird2B": ["big bird2"], "big bird3B": ["big bird3"], "big bird4B": ["big bird4"], "big bird5B": ["big bird5"], "big bird6B": ["big bird6"], "big bird7B": ["big bird7"], "big birdAB": ["big birdA"], "big bird1AB": ["big bird1A"], "big bird2AB": ["big bird2A"], "big bird3AB": ["big bird3A"], "big bird4AB": ["big bird4A"], "big bird5AB": ["big bird5A"], "big bird6AB": ["big bird6A"], "big bird7AB": ["big bird7A"], "grouch1B": ["grouch1"],  "grouch2B": ["grouch2"]},
                         "silentConvert": true,
                         "distractmsg": "You have been turned into a pumpkin and rendered helpless by Abby!",
                         "teammsg": "Your partner was turrned into a pumpkin and rendered helpless by Abby and thus you decided not to act.",
@@ -388,8 +388,8 @@
             "role": "abby1",
             "translation": "Abby",
             "side": "village",
-            "help": "Although you are a fairy, you have limited magical powers. However, that doesn't mean you aren't powerless! Use /distract to turn your targets into pumpkins and render them useless, twice per game!",
-            "info": "Can distract once per night, up to twice per game. Sided with 123 Sesame Street. ",
+            "help": "Although you are a fairy, you have limited magical powers. However, that doesn't mean you aren't powerless! Use /distract to turn your targets into pumpkins and render them useless, thrice per game!",
+            "info": "Can distract once per night, up to three times per game. Sided with 123 Sesame Street. ",
             "actions": {
 "lynch": { "convertRoles": {"big bird1": "big bird", "big bird2": "big bird1", "big bird3": "big bird2", "big bird4": "big bird3", "big bird5": "big bird4", "big bird6": "big bird5", "big bird7": "big bird6"}, "convertmsg": "With another resident of Sesame Street down, Big Bird loses another supporter."},
                 "onDeath": {
@@ -402,12 +402,12 @@
                             "distract"
                         ],
                         "common": "Team",
-                        "newRole": { "bertB": ["bert"], "bertAB": ["bertA"], "cookieB": ["cookie"], "cookieAB": ["cookieA"], "ernieB": ["ernie"], "ernieAB": ["ernieA"], "groverB": ["grover", "grover1"], "groverAB": ["groverA"], "rositaB": ["rosita"], "rositaAB": ["rositaA"],  "zoeB": ["zoe"], "zoeAB": ["zoeA"], "elmoB": ["elmo"], "elmoAB": ["elmoA"], "dorothyB":["dorothy"], "dorothyAB":["dorothyA"], "big birdB": ["big bird"], "big bird1B": ["big bird1"], "big bird2B": ["big bird2"], "big bird3B": ["big bird3"], "big bird4B": ["big bird4"], "big bird5B": ["big bird5"], "big bird6B": ["big bird6"], "big bird7B": ["big bird7"], "big birdAB": ["big birdA"], "big bird1AB": ["big bird1A"], "big bird2AB": ["big bird2A"], "big bird3AB": ["big bird3A"], "big bird4AB": ["big bird4A"], "big bird5AB": ["big bird5A"], "big bird6AB": ["big bird6A"], "big bird7AB": ["big bird7A"], "grouch1B": ["grouch1"],  "grouch2B": ["grouch2"]},
+                        "newRole": { "bertB": ["bert"], "countB": ["count"], "countAB": ["countA"], "bertAB": ["bertA"], "cookieB": ["cookie"], "cookieAB": ["cookieA"], "ernieB": ["ernie"], "ernieAB": ["ernieA"], "groverB": ["grover", "grover1"], "groverAB": ["groverA"], "rositaB": ["rosita"], "rositaAB": ["rositaA"],  "zoeB": ["zoe"], "zoeAB": ["zoeA"], "elmoB": ["elmo"], "elmoAB": ["elmoA"], "dorothyB":["dorothy"], "dorothyAB":["dorothyA"], "big birdB": ["big bird"], "big bird1B": ["big bird1"], "big bird2B": ["big bird2"], "big bird3B": ["big bird3"], "big bird4B": ["big bird4"], "big bird5B": ["big bird5"], "big bird6B": ["big bird6"], "big bird7B": ["big bird7"], "big birdAB": ["big birdA"], "big bird1AB": ["big bird1A"], "big bird2AB": ["big bird2A"], "big bird3AB": ["big bird3A"], "big bird4AB": ["big bird4A"], "big bird5AB": ["big bird5A"], "big bird6AB": ["big bird6A"], "big bird7AB": ["big bird7A"], "grouch1B": ["grouch1"],  "grouch2B": ["grouch2"]},
                         "silentConvert": true,
                         "distractmsg": "You have been turned into a pumpkin and rendered helpless by Abby!",
                         "teammsg": "Your partner was turrned into a pumpkin and rendered helpless by Abby and thus you decided not to act.",
                         "silent": true,
-						"charges": 2,
+						"charges": 3,
                         "priority": 2,
                         "target": "AnyButSelf"
                     }}
@@ -5816,7 +5816,7 @@
                             "distract"
                         ],
                         "common": "Team",
-                                                "newRole": { "bertB": ["bert"], "bertAB": ["bertA"], "cookieB": ["cookie"], "cookieAB": ["cookieA"], "ernieB": ["ernie"], "ernieAB": ["ernieA"], "groverB": ["grover", "grover1"], "groverAB": ["groverA"], "rositaB": ["rosita"], "rositaAB": ["rositaA"], "zoeB": ["zoe"], "zoeAB": ["zoeA"], "elmoB": ["elmo"], "elmoAB": ["elmoA"], "dorothyB":["dorothy"], "dorothyAB":["dorothyA"], "big birdB": ["big bird"], "big bird1B": ["big bird1"], "big bird2B": ["big bird2"], "big bird3B": ["big bird3"], "big bird4B": ["big bird4"], "big bird5B": ["big bird5"], "big bird6B": ["big bird6"], "big bird7B": ["big bird7"], "big birdAB": ["big birdA"], "big bird1AB": ["big bird1A"], "big bird2AB": ["big bird2A"], "big bird3AB": ["big bird3A"], "big bird4AB": ["big bird4A"], "big bird5AB": ["big bird5A"], "big bird6AB": ["big bird6A"], "big bird7AB": ["big bird7A"], "grouch1B": ["grouch1"],  "grouch2B": ["grouch2"]},
+                                                "newRole": { "bertB": ["bert"], "countB": ["count"], "countAB": ["countA"], "bertAB": ["bertA"], "cookieB": ["cookie"], "cookieAB": ["cookieA"], "ernieB": ["ernie"], "ernieAB": ["ernieA"], "groverB": ["grover", "grover1"], "groverAB": ["groverA"], "rositaB": ["rosita"], "rositaAB": ["rositaA"], "zoeB": ["zoe"], "zoeAB": ["zoeA"], "elmoB": ["elmo"], "elmoAB": ["elmoA"], "dorothyB":["dorothy"], "dorothyAB":["dorothyA"], "big birdB": ["big bird"], "big bird1B": ["big bird1"], "big bird2B": ["big bird2"], "big bird3B": ["big bird3"], "big bird4B": ["big bird4"], "big bird5B": ["big bird5"], "big bird6B": ["big bird6"], "big bird7B": ["big bird7"], "big birdAB": ["big birdA"], "big bird1AB": ["big bird1A"], "big bird2AB": ["big bird2A"], "big bird3AB": ["big bird3A"], "big bird4AB": ["big bird4A"], "big bird5AB": ["big bird5A"], "big bird6AB": ["big bird6A"], "big bird7AB": ["big bird7A"], "grouch1B": ["grouch1"],  "grouch2B": ["grouch2"]},
 
                         "silentConvert": true,
 						"target": "AnyButSelf",  "hide": true,
