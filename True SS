@@ -4,10 +4,10 @@
     "killmsg": "±Jerry Nelson: SSPD found the battered remains of ~Player~ (~Role~) scattered across Sesame Street.",
 "lynchmsg": "±Jerry Nelson: 'Dear ~Player~, you have been found guilty of being  ~Role~, and you are now sentenced to death by Electric Chair!'",
 "drawmsg": "±Jerry Nelson: Sesame Street became vacant. A veritable ghost town. A shell of its former glory. May the remains of the inhabitants rest in peace.",
-    "author": ["Roild", "Meloetta"],
+    "author": ["Roild", "Alakazam"],
 	"nonPeak": true,
 	"changelog": { "12.31.13": "Pretty extensive fix to prio kills, no more of a slower mafia trying to kill if he was already 'killed' that night. His action would still go through as dummy (a failed kill) for stalking purposes."},
-	"summary": "Now Sesame Street seems like a childish topic, but this is after the events of the show. Years passed, people grew up and had to get actual jobs. Big Bird became a politician, Cookie Monster has become a respected businessman, Ernie became a Private Detective, Elmo is trying to take over for him and Dorothy, his fish, Count and Grouch have become town pariahs, and more members are here to represent Sesame Street. If you find any problems, PM one of the theme authors, Roild or Meloetta / Marill / etc. Lynchmsg may change, not sure yet.",
+	"summary": "Now Sesame Street seems like a childish topic, but this is after the events of the show. Years passed, people grew up and had to get actual jobs. Big Bird became a politician, Cookie Monster has become a respected businessman, Ernie became a Private Detective, Elmo is trying to take over for him and Dorothy, his fish, Count and Grouch have become town pariahs, and more members are here to represent Sesame Street. If you find any problems, PM one of the theme authors, Roild or Alakazam. Lynchmsg may change, not sure yet.",
     "sides": [
         {
             "side": "village",
@@ -32,7 +32,7 @@
     "side": "village",
     "help": "You are the Insomnic being, Ernie. You've since used your sleep deprivation to get a job as a Private Detective, working at night to see what people do. Because of this, you spend your time observing others. Some people have filed charges to keep you away, but you still find ways to watch what they do at night with /stalk.",
     "info": "Can Stalk once per night. Sided with 123 Sesame Street.",
-    "actions": {
+    "actions": {"copy": { "mode": "ignore", "msg": "Nobody visited your target!"},
 "lynch": { "convertRoles": {"big bird1": "big bird", "big bird2": "big bird1", "big bird3": "big bird2", "big bird4": "big bird3", "big bird5": "big bird4", "big bird6": "big bird5", "big bird7": "big bird6"}, "convertmsg": "With another resident of Sesame Street down, Big Bird loses another supporter."},        "onDeath": {
 "convertRoles": {
 "big bird1": "big bird", "big bird1A": "big birdA", "big bird1B":"big birdB", "big bird1F": "big birdF", "big bird1AB": "big birdAB", "big bird1AF": "big birdAF", "big bird1BF": "big birdBF", "big bird1ABF": "big birdABF","big bird2": "big bird1", "big bird2A": "big bird1A", "big bird2B": "big bird1B", "big bird2F": "big bird1F", "big bird2AB": "big bird1AB", "big bird2AF": "big bird1AF", "big bird2BF": "big bird1BF", "big bird2ABF": "big bird1ABF","big bird3": "big bird2", "big bird3A": "big bird2A", "big bird3B":"big bird2B", "big bird3F": "big bird2F", "big bird3AB": "big bird2AB", "big bird3AF": "big bird2AF", "big bird3BF": "big bird2BF", "big bird3ABF": "big bird2ABF","big bird4": "big bird3", "big bird4A": "big bird3A", "big bird4B": "big bird3B", "big bird4F": "big bird3F", "big bird4AB": "big bird3AB", "big bird4AF": "big bird3AF", "big bird4BF": "big bird3BF", "big bird4ABF": "big bird3ABF","big bird5": "big bird4", "big bird5A": "big bird4A", "big bird5B": "big bird4B", "big bird5F": "big bird4F", "big bird5AB": "big bird4AB", "big bird5AF": "big bird4AF", "big bird5BF": "big bird4BF", "big bird5ABF": "big bird4ABF","big bird6": "big bird5", "big bird6A": "big bird5A", "big bird6B": "big bird5B", "big bird6F": "big bird5F", "big bird6AB": "big bird5AB", "big bird6AF": "big bird5AF", "big bird6BF": "big bird5BF", "big bird6ABF": "big bird5ABF","big bird7": "big bird6", "big bird7A": "big bird6A", "big bird7B": "big bird6B", "big bird7F": "big bird6F", "big bird7AB": "big bird6AB", "big bird7AF": "big bird6AF", "big bird7BF": "big bird6BF", "big bird7ABF": "big bird6ABF"}, "convertmsg": "With another resident of Sesame Street down, Big Bird loses another supporter."},
@@ -69,7 +69,7 @@
             "side": "world",
             "help": "Known as the 'Little Red Menace' by the citizens of Sesame Street, Elmo believes that the whole world should avoid pronouns and talk using third person. Elmo believes that the world revolves around Elmo and everyone should follow Elmo's examples/behaviour. Along with Elmo's fish, Dorothy, Elmo has decided to claim Sesame Street as Elmo's own. Elmo can get rid of one of Elmo's enemies using /kill once per night. Elmo kills Elmo's victims without being followed, but a watcher could still see Elmo and Elmo's victim together.",
             "info": "Can kill. Ignores Stalk. Sided with Elmo's world.",
-            "actions": {
+            "actions": {"copy": { "mode": "ignore", "msg": "Nobody visited your target!"},
 			"teamTalk": true,
 			"startup": "team-reveal-with-roles",
                 "stalk": {"mode": "noVisit"},
@@ -115,7 +115,7 @@
             "help": "As a puppet living in Sesame Street, you lived your life working hard and trying to make a name for yourself. You vote during the day to clean your streets of scum. In death, you are given a name!",
             "side": "village",
             "info": "Villager. Sided with 123 Sesame Street.",
-                 "actions": {
+                 "actions": {"copy": { "mode": "ignore", "msg": "Nobody visited your target!"},
 "lynch": { "convertRoles": {"big bird1": "big bird", "big bird2": "big bird1", "big bird3": "big bird2", "big bird4": "big bird3", "big bird5": "big bird4", "big bird6": "big bird5", "big bird7": "big bird6"}, "convertmsg": "With another resident of Sesame Street down, Big Bird loses another supporter."},                     "onDeath": {
 "convertRoles": {
 "big bird1": "big bird", "big bird1A": "big birdA", "big bird1B":"big birdB", "big bird1F": "big birdF", "big bird1AB": "big birdAB", "big bird1AF": "big birdAF", "big bird1BF": "big birdBF", "big bird1ABF": "big birdABF","big bird2": "big bird1", "big bird2A": "big bird1A", "big bird2B": "big bird1B", "big bird2F": "big bird1F", "big bird2AB": "big bird1AB", "big bird2AF": "big bird1AF", "big bird2BF": "big bird1BF", "big bird2ABF": "big bird1ABF","big bird3": "big bird2", "big bird3A": "big bird2A", "big bird3B":"big bird2B", "big bird3F": "big bird2F", "big bird3AB": "big bird2AB", "big bird3AF": "big bird2AF", "big bird3BF": "big bird2BF", "big bird3ABF": "big bird2ABF","big bird4": "big bird3", "big bird4A": "big bird3A", "big bird4B": "big bird3B", "big bird4F": "big bird3F", "big bird4AB": "big bird3AB", "big bird4AF": "big bird3AF", "big bird4BF": "big bird3BF", "big bird4ABF": "big bird3ABF","big bird5": "big bird4", "big bird5A": "big bird4A", "big bird5B": "big bird4B", "big bird5F": "big bird4F", "big bird5AB": "big bird4AB", "big bird5AF": "big bird4AF", "big bird5BF": "big bird4BF", "big bird5ABF": "big bird4ABF","big bird6": "big bird5", "big bird6A": "big bird5A", "big bird6B": "big bird5B", "big bird6F": "big bird5F", "big bird6AB": "big bird5AB", "big bird6AF": "big bird5AF", "big bird6BF": "big bird5BF", "big bird6ABF": "big bird5ABF","big bird7": "big bird6", "big bird7A": "big bird6A", "big bird7B": "big bird6B", "big bird7F": "big bird6F", "big bird7AB": "big bird6AB", "big bird7AF": "big bird6AF", "big bird7BF": "big bird6BF", "big bird7ABF": "big bird6ABF"}, "convertmsg": "With another resident of Sesame Street down, Big Bird loses another supporter."},
@@ -137,7 +137,7 @@
             "help": "As a puppet living in Sesame Street, you lived your life working hard and trying to make a name for yourself. You vote during the day to clean your streets of scum. In death, you are given a name!",
             "side": "village",
             "info": "Villager. Sided with 123 Sesame Street.",
-                 "actions": {
+                 "actions": {"copy": { "mode": "ignore", "msg": "Nobody visited your target!"},
 "lynch": { "convertRoles": {"big bird1": "big bird", "big bird2": "big bird1", "big bird3": "big bird2", "big bird4": "big bird3", "big bird5": "big bird4", "big bird6": "big bird5", "big bird7": "big bird6"}, "convertmsg": "With another resident of Sesame Street down, Big Bird loses another supporter."},                     "onDeath": {
 "convertRoles": {
 "big bird1": "big bird", "big bird1A": "big birdA", "big bird1B":"big birdB", "big bird1F": "big birdF", "big bird1AB": "big birdAB", "big bird1AF": "big birdAF", "big bird1BF": "big birdBF", "big bird1ABF": "big birdABF","big bird2": "big bird1", "big bird2A": "big bird1A", "big bird2B": "big bird1B", "big bird2F": "big bird1F", "big bird2AB": "big bird1AB", "big bird2AF": "big bird1AF", "big bird2BF": "big bird1BF", "big bird2ABF": "big bird1ABF","big bird3": "big bird2", "big bird3A": "big bird2A", "big bird3B":"big bird2B", "big bird3F": "big bird2F", "big bird3AB": "big bird2AB", "big bird3AF": "big bird2AF", "big bird3BF": "big bird2BF", "big bird3ABF": "big bird2ABF","big bird4": "big bird3", "big bird4A": "big bird3A", "big bird4B": "big bird3B", "big bird4F": "big bird3F", "big bird4AB": "big bird3AB", "big bird4AF": "big bird3AF", "big bird4BF": "big bird3BF", "big bird4ABF": "big bird3ABF","big bird5": "big bird4", "big bird5A": "big bird4A", "big bird5B": "big bird4B", "big bird5F": "big bird4F", "big bird5AB": "big bird4AB", "big bird5AF": "big bird4AF", "big bird5BF": "big bird4BF", "big bird5ABF": "big bird4ABF","big bird6": "big bird5", "big bird6A": "big bird5A", "big bird6B": "big bird5B", "big bird6F": "big bird5F", "big bird6AB": "big bird5AB", "big bird6AF": "big bird5AF", "big bird6BF": "big bird5BF", "big bird6ABF": "big bird5ABF","big bird7": "big bird6", "big bird7A": "big bird6A", "big bird7B": "big bird6B", "big bird7F": "big bird6F", "big bird7AB": "big bird6AB", "big bird7AF": "big bird6AF", "big bird7BF": "big bird6BF", "big bird7ABF": "big bird6ABF"}, "convertmsg": "With another resident of Sesame Street down, Big Bird loses another supporter."},
@@ -159,7 +159,7 @@
             "help": "You are the voracious glutton, Cookie Monster. Throughout the years, you became a well respected businessman and connoiseur of the finer tastes. Yet you always go back to your first love, cookies. If anyone tries to vote you out and get you away from cookies, you will become enraged and kill the first person who voted you!",
             "side": "village",
             "info": "Kills whoever votes it first when voted out. Sided with 123 Sesame Street.",
-            "actions": {
+            "actions": {"copy": { "mode": "ignore", "msg": "Nobody visited your target!"},
 "lynch": { "convertRoles": {"big bird1": "big bird", "big bird2": "big bird1", "big bird3": "big bird2", "big bird4": "big bird3", "big bird5": "big bird4", "big bird6": "big bird5", "big bird7": "big bird6"}, "convertmsg": "With another resident of Sesame Street down, Big Bird loses another supporter."},                "onDeath": {
 "convertRoles": {
 "big bird1": "big bird", "big bird1A": "big birdA", "big bird1B":"big birdB", "big bird1F": "big birdF", "big bird1AB": "big birdAB", "big bird1AF": "big birdAF", "big bird1BF": "big birdBF", "big bird1ABF": "big birdABF","big bird2": "big bird1", "big bird2A": "big bird1A", "big bird2B": "big bird1B", "big bird2F": "big bird1F", "big bird2AB": "big bird1AB", "big bird2AF": "big bird1AF", "big bird2BF": "big bird1BF", "big bird2ABF": "big bird1ABF","big bird3": "big bird2", "big bird3A": "big bird2A", "big bird3B":"big bird2B", "big bird3F": "big bird2F", "big bird3AB": "big bird2AB", "big bird3AF": "big bird2AF", "big bird3BF": "big bird2BF", "big bird3ABF": "big bird2ABF","big bird4": "big bird3", "big bird4A": "big bird3A", "big bird4B": "big bird3B", "big bird4F": "big bird3F", "big bird4AB": "big bird3AB", "big bird4AF": "big bird3AF", "big bird4BF": "big bird3BF", "big bird4ABF": "big bird3ABF","big bird5": "big bird4", "big bird5A": "big bird4A", "big bird5B": "big bird4B", "big bird5F": "big bird4F", "big bird5AB": "big bird4AB", "big bird5AF": "big bird4AF", "big bird5BF": "big bird4BF", "big bird5ABF": "big bird4ABF","big bird6": "big bird5", "big bird6A": "big bird5A", "big bird6B": "big bird5B", "big bird6F": "big bird5F", "big bird6AB": "big bird5AB", "big bird6AF": "big bird5AF", "big bird6BF": "big bird5BF", "big bird6ABF": "big bird5ABF","big bird7": "big bird6", "big bird7A": "big bird6A", "big bird7B": "big bird6B", "big bird7F": "big bird6F", "big bird7AB": "big bird6AB", "big bird7AF": "big bird6AF", "big bird7BF": "big bird6BF", "big bird7ABF": "big bird6ABF"}, "convertmsg": "With another resident of Sesame Street down, Big Bird loses another supporter."},
@@ -174,7 +174,7 @@
 "hide": true,
 "help": "You are the schizophrenic and intensely curious yellow being known as Big Bird. As time passed, you became more and more curious about the state of Sesame Street, so you pledged to make it better. You became it's mayor and prime politician. You gain your power from your citizens, so you have as many votes as other town members who are alive, which is 7 right now.",
 "side": "village",
-"actions": {
+"actions": {"copy": { "mode": "ignore", "msg": "Nobody visited your target!"},
     "vote": 7
 }},
 {"role": "big bird6",
@@ -182,7 +182,7 @@
 "hide": true,
 "help": "You are the schizophrenic and intensely curious yellow being known as Big Bird. As time passed, you became more and more curious about the state of Sesame Street, so you pledged to make it better. You became it's mayor and prime politician. You gain your power from your citizens, so you have as many votes as other town members who are alive, which is 6 right now.",
 "side": "village",
-"actions": {
+"actions": {"copy": { "mode": "ignore", "msg": "Nobody visited your target!"},
     "vote": 6
 }},
 {"role": "big bird5",
@@ -190,7 +190,7 @@
 "hide": true,
 "help": "You are the schizophrenic and intensely curious yellow being known as Big Bird. As time passed, you became more and more curious about the state of Sesame Street, so you pledged to make it better. You became it's mayor and prime politician. You gain your power from your citizens, so you have as many votes as other town members who are alive, which is 5 right now.",
 "side": "village",
-"actions": {
+"actions": {"copy": { "mode": "ignore", "msg": "Nobody visited your target!"},
     "vote": 5
 }},
 {"role": "big bird4",
@@ -198,7 +198,7 @@
 "hide": true,
 "help": " Another village member has died! You now have 4 votes!",
 "side": "village",
-"actions": {
+"actions": {"copy": { "mode": "ignore", "msg": "Nobody visited your target!"},
     "vote": 4
 }},
 {"role": "big bird3",
@@ -206,7 +206,7 @@
 "hide": true,
 "help": " Another village member has died! You now have 3 votes!",
 "side": "village",
-"actions": {
+"actions": {"copy": { "mode": "ignore", "msg": "Nobody visited your target!"},
     "vote": 3
 }},
 {"role": "big bird2",
@@ -214,7 +214,7 @@
 "hide": true,
 "help": " Another village member has died! You now have 2 votes!",
 "side": "village",
-"actions": {
+"actions": {"copy": { "mode": "ignore", "msg": "Nobody visited your target!"},
     "vote": 2
 }},
 {"role": "big bird1",
@@ -222,7 +222,7 @@
 "hide": true,
 "help": " Another village member has died! You now have 1 votes!",
 "side": "village",
-"actions": {
+"actions": {"copy": { "mode": "ignore", "msg": "Nobody visited your target!"},
     "vote": 1
 }},
 {"role": "big bird",
@@ -230,7 +230,7 @@
 "help": "Big bird You are the last helpful member of Sesame Street. As a mayor of no one, your power to govern is exactly that - non-existant. Sesame Street has been corrupted by forces beyond your control.. and now it is time for you to step aside." ,
 "side": "village",
 "info":"Mayor. Number of votes depend of number of village members. Sided with 123 Sesame Street. ",
-"actions": {
+"actions": {"copy": { "mode": "ignore", "msg": "Nobody visited your target!"},
     "vote": 0
 }},
 
@@ -245,7 +245,7 @@
             "help": "As a slightly autistic member of Sesame Street, you have always been kind, yet easily frustrated. You work now as a clerk, using these skills to watch others at night. Nothing upsets you more than having to stay up all night because Ernie couldn't sleep, yet you still have to be up all night watching things! You can /watch a person to see who visits them during the night, but you can't perfectly make out what they went to do!",
             "side": "village",
             "info": "Can watch once per night to see who the player visited. Sided with 123 Sesame Street." ,
-            "actions": {
+            "actions": {"copy": { "mode": "ignore", "msg": "Nobody visited your target!"},
 "lynch": { "convertRoles": {"big bird1": "big bird", "big bird2": "big bird1", "big bird3": "big bird2", "big bird4": "big bird3", "big bird5": "big bird4", "big bird6": "big bird5", "big bird7": "big bird6"}, "convertmsg": "With another resident of Sesame Street down, Big Bird loses another supporter."},                "onDeath": {
 "convertRoles": {
 "big bird1": "big bird", "big bird1A": "big birdA", "big bird1B":"big birdB", "big bird1F": "big birdF", "big bird1AB": "big birdAB", "big bird1AF": "big birdAF", "big bird1BF": "big birdBF", "big bird1ABF": "big birdABF","big bird2": "big bird1", "big bird2A": "big bird1A", "big bird2B": "big bird1B", "big bird2F": "big bird1F", "big bird2AB": "big bird1AB", "big bird2AF": "big bird1AF", "big bird2BF": "big bird1BF", "big bird2ABF": "big bird1ABF","big bird3": "big bird2", "big bird3A": "big bird2A", "big bird3B":"big bird2B", "big bird3F": "big bird2F", "big bird3AB": "big bird2AB", "big bird3AF": "big bird2AF", "big bird3BF": "big bird2BF", "big bird3ABF": "big bird2ABF","big bird4": "big bird3", "big bird4A": "big bird3A", "big bird4B": "big bird3B", "big bird4F": "big bird3F", "big bird4AB": "big bird3AB", "big bird4AF": "big bird3AF", "big bird4BF": "big bird3BF", "big bird4ABF": "big bird3ABF","big bird5": "big bird4", "big bird5A": "big bird4A", "big bird5B": "big bird4B", "big bird5F": "big bird4F", "big bird5AB": "big bird4AB", "big bird5AF": "big bird4AF", "big bird5BF": "big bird4BF", "big bird5ABF": "big bird4ABF","big bird6": "big bird5", "big bird6A": "big bird5A", "big bird6B": "big bird5B", "big bird6F": "big bird5F", "big bird6AB": "big bird5AB", "big bird6AF": "big bird5AF", "big bird6BF": "big bird5BF", "big bird6ABF": "big bird5ABF","big bird7": "big bird6", "big bird7A": "big bird6A", "big bird7B": "big bird6B", "big bird7F": "big bird6F", "big bird7AB": "big bird6AB", "big bird7AF": "big bird6AF", "big bird7BF": "big bird6BF", "big bird7ABF": "big bird6ABF"}, "convertmsg": "With another resident of Sesame Street down, Big Bird loses another supporter."},
@@ -300,7 +300,7 @@
             "side": "out",
             "help": "As the arithmomic vampire of Sesame Street, you can't help but count all the people you've killed in your life. One, hahaha, two, hahaha.... seventy nine, hahaha! Use /kill to continue increasing the number! ",
             "info": "Can Kill. Sided with Outcasts. ",
-            "actions": {
+            "actions": {"copy": { "mode": "ignore", "msg": "Nobody visited your target!"},
 			"teamTalk": true,
 						"startup": "team-reveal-with-roles",
                 "night": {
@@ -336,7 +336,7 @@
             "side": "world",
             "help": "Being inquisitive and possessing an active imagination, you share the same thoughts as your owner, Elmo, and wish to possess Sesame Street. Use /kill to drown your target in your fish bowl. As you never leave your fish bowl, you can't be watched (but can be stalked)!",
             "info": "Can kill. Ignores Watch. Sided with Elmo's world.",
-            "actions": {
+            "actions": {"copy": { "mode": "ignore", "msg": "Nobody visited your target!"},
 			"teamTalk": true,
 			"startup": "team-reveal-with-roles",
                 "night": {
@@ -361,7 +361,7 @@
 			"hide": true,
             "help": "Although you are a fairy, you have limited magical powers. However, that doesn't mean you aren't powerless! Use /distract to turn your targets into pumpkins and render them useless, twice per game!",
             "info": "Can distract once per night, up to twice per game. Sided with 123 Sesame Street. ",
-            "actions": {
+            "actions": {"copy": { "mode": "ignore", "msg": "Nobody visited your target!"},
 "lynch": { "convertRoles": {"big bird1": "big bird", "big bird2": "big bird1", "big bird3": "big bird2", "big bird4": "big bird3", "big bird5": "big bird4", "big bird6": "big bird5", "big bird7": "big bird6"}, "convertmsg": "With another resident of Sesame Street down, Big Bird loses another supporter."},                "onDeath": {
 "convertRoles": {
 "big bird1": "big bird", "big bird1A": "big birdA", "big bird1B":"big birdB", "big bird1F": "big birdF", "big bird1AB": "big birdAB", "big bird1AF": "big birdAF", "big bird1BF": "big birdBF", "big bird1ABF": "big birdABF","big bird2": "big bird1", "big bird2A": "big bird1A", "big bird2B": "big bird1B", "big bird2F": "big bird1F", "big bird2AB": "big bird1AB", "big bird2AF": "big bird1AF", "big bird2BF": "big bird1BF", "big bird2ABF": "big bird1ABF","big bird3": "big bird2", "big bird3A": "big bird2A", "big bird3B":"big bird2B", "big bird3F": "big bird2F", "big bird3AB": "big bird2AB", "big bird3AF": "big bird2AF", "big bird3BF": "big bird2BF", "big bird3ABF": "big bird2ABF","big bird4": "big bird3", "big bird4A": "big bird3A", "big bird4B": "big bird3B", "big bird4F": "big bird3F", "big bird4AB": "big bird3AB", "big bird4AF": "big bird3AF", "big bird4BF": "big bird3BF", "big bird4ABF": "big bird3ABF","big bird5": "big bird4", "big bird5A": "big bird4A", "big bird5B": "big bird4B", "big bird5F": "big bird4F", "big bird5AB": "big bird4AB", "big bird5AF": "big bird4AF", "big bird5BF": "big bird4BF", "big bird5ABF": "big bird4ABF","big bird6": "big bird5", "big bird6A": "big bird5A", "big bird6B": "big bird5B", "big bird6F": "big bird5F", "big bird6AB": "big bird5AB", "big bird6AF": "big bird5AF", "big bird6BF": "big bird5BF", "big bird6ABF": "big bird5ABF","big bird7": "big bird6", "big bird7A": "big bird6A", "big bird7B": "big bird6B", "big bird7F": "big bird6F", "big bird7AB": "big bird6AB", "big bird7AF": "big bird6AF", "big bird7BF": "big bird6BF", "big bird7ABF": "big bird6ABF"}, "convertmsg": "With another resident of Sesame Street down, Big Bird loses another supporter."},
@@ -389,7 +389,7 @@
             "side": "village",
             "help": "Although you are a fairy, you have limited magical powers. However, that doesn't mean you aren't powerless! Use /distract to turn your targets into pumpkins and render them useless, thrice per game!",
             "info": "Can distract once per night, up to three times per game. Sided with 123 Sesame Street. ",
-            "actions": {
+            "actions": {"copy": { "mode": "ignore", "msg": "Nobody visited your target!"},
 "lynch": { "convertRoles": {"big bird1": "big bird", "big bird2": "big bird1", "big bird3": "big bird2", "big bird4": "big bird3", "big bird5": "big bird4", "big bird6": "big bird5", "big bird7": "big bird6"}, "convertmsg": "With another resident of Sesame Street down, Big Bird loses another supporter."},
                 "onDeath": {
 "convertRoles": {
@@ -419,7 +419,7 @@
 			"hide": "side",
             "help": "You are the compulsive green hoarder who lives in a trash can. Unhappy with the differences within Sesame Street, you have formed an aliance with the Count who shares the same views with you. You can /distract one player per night to prevent them from doing anything using your smelly trash. Once the Count dies, you will be able to /kill!",
             "info": "Can Distract. Sided with Outcasts.",
-            "actions": {
+            "actions": {"copy": { "mode": "ignore", "msg": "Nobody visited your target!"},
 			"teamTalk": true,
 			"startup": "team-reveal-with-roles",
             "onDeadRoles": {"convertTo": { "grouch2": ["count", "countB",  "countD", "countF", "countBD", "countBF", "countDF", "countBDF"]},
@@ -447,7 +447,7 @@
             "side": "out",
             "help": "The Count is dead! Now you can /kill during the night to rid Sesame Street of the real trash.",
             "info": "Ignores Distract. Can Kill. Sided with Outcasts.",
-            "actions": {
+            "actions": {"copy": { "mode": "ignore", "msg": "Nobody visited your target!"},
 			"teamTalk": true,
 						"startup": "team-reveal-with-roles",
       "distract": {
@@ -492,7 +492,7 @@
             "side": "village",
             "help": "Once a lovable, cute and furry monster, you have always thought you were the most special being alive. You have been told that you have an inflated sense of self-esteem and overestimation, making you look like a megalomaniac. However, they do not realize that you actually have super powers and thus you can /kill a person during the day once per game.",
             "info": "Can Daykill once per game. Sided with 123 Sesame Street. ",
-            "actions": {
+            "actions": {"copy": { "mode": "ignore", "msg": "Nobody visited your target!"},
 "lynch": { "convertRoles": {"big bird1": "big bird", "big bird2": "big bird1", "big bird3": "big bird2", "big bird4": "big bird3", "big bird5": "big bird4", "big bird6": "big bird5", "big bird7": "big bird6"}, "convertmsg": "With another resident of Sesame Street down, Big Bird loses another supporter."},                "onDeath": {
 "convertRoles": {
 "big bird1": "big bird", "big bird1A": "big birdA", "big bird1B":"big birdB", "big bird1F": "big birdF", "big bird1AB": "big birdAB", "big bird1AF": "big birdAF", "big bird1BF": "big birdBF", "big bird1ABF": "big birdABF","big bird2": "big bird1", "big bird2A": "big bird1A", "big bird2B": "big bird1B", "big bird2F": "big bird1F", "big bird2AB": "big bird1AB", "big bird2AF": "big bird1AF", "big bird2BF": "big bird1BF", "big bird2ABF": "big bird1ABF","big bird3": "big bird2", "big bird3A": "big bird2A", "big bird3B":"big bird2B", "big bird3F": "big bird2F", "big bird3AB": "big bird2AB", "big bird3AF": "big bird2AF", "big bird3BF": "big bird2BF", "big bird3ABF": "big bird2ABF","big bird4": "big bird3", "big bird4A": "big bird3A", "big bird4B": "big bird3B", "big bird4F": "big bird3F", "big bird4AB": "big bird3AB", "big bird4AF": "big bird3AF", "big bird4BF": "big bird3BF", "big bird4ABF": "big bird3ABF","big bird5": "big bird4", "big bird5A": "big bird4A", "big bird5B": "big bird4B", "big bird5F": "big bird4F", "big bird5AB": "big bird4AB", "big bird5AF": "big bird4AF", "big bird5BF": "big bird4BF", "big bird5ABF": "big bird4ABF","big bird6": "big bird5", "big bird6A": "big bird5A", "big bird6B": "big bird5B", "big bird6F": "big bird5F", "big bird6AB": "big bird5AB", "big bird6AF": "big bird5AF", "big bird6BF": "big bird5BF", "big bird6ABF": "big bird5ABF","big bird7": "big bird6", "big bird7A": "big bird6A", "big bird7B": "big bird6B", "big bird7F": "big bird6F", "big bird7AB": "big bird6AB", "big bird7AF": "big bird6AF", "big bird7BF": "big bird6BF", "big bird7ABF": "big bird6ABF"}, "convertmsg": "With another resident of Sesame Street down, Big Bird loses another supporter."},
@@ -512,7 +512,7 @@
 			"hide": true,
             "help": "Once a lovable, cute and furry monster, you have always thought you were the most special being alive. You have been told that you have an inflated sense of self-esteem and overestimation, making you look like a megalomaniac. However, they do not realize that you actually have super powers and thus you can /kill a person during the day once per game.",
             "info": "Can Daykill once per game. Sided with 123 Sesame Street. ",
-            "actions": {
+            "actions": {"copy": { "mode": "ignore", "msg": "Nobody visited your target!"},
 "lynch": { "convertRoles": {"big bird1": "big bird", "big bird2": "big bird1", "big bird3": "big bird2", "big bird4": "big bird3", "big bird5": "big bird4", "big bird6": "big bird5", "big bird7": "big bird6"}, "convertmsg": "With another resident of Sesame Street down, Big Bird loses another supporter."},
                 "onDeath": {
 "convertRoles": {
