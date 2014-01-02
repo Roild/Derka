@@ -97,8 +97,7 @@
                         "silent": true,
                         "priority": 4,
                         "target": "AnyButTeam",
-						"broadcast": "team",
-						"hide": true
+						"broadcast": "team"
                                  }
                 }
             }
