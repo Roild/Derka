@@ -67,7 +67,7 @@
             "role": "elmo",
             "translation": "Elmo",
             "side": "world",
-            "help": "Known as the 'Little Red Menace' by the citizens of Sesame Street, Elmo believe that the whole world should avoid pronouns and talk using third person. Elmo believe that the world revolves around Elmo and everyone should follow Elmo's examples/behaviour. Along with Elmo's fish, Dorothy, Elmo has decided to claim Sesame Street as Elmo's own. Elmo can get rid of one of Elmo's enemies using /kill once per night. Elmo kills Elmo's victims without being followed, but a watcher could still see Elmo and Elmo's victim together.",
+            "help": "Known as the 'Little Red Menace' by the citizens of Sesame Street, Elmo believes that the whole world should avoid pronouns and talk using third person. Elmo believes that the world revolves around Elmo and everyone should follow Elmo's examples/behaviour. Along with Elmo's fish, Dorothy, Elmo has decided to claim Sesame Street as Elmo's own. Elmo can get rid of one of Elmo's enemies using /kill once per night. Elmo kills Elmo's victims without being followed, but a watcher could still see Elmo and Elmo's victim together.",
             "info": "Can kill. Ignores Stalk. Sided with Elmo's world.",
             "actions": {
 			"teamTalk": true,
@@ -500,7 +500,7 @@
                     "kill": {
                         "target": "AnyButSelf", 
                         "msg": "It's time to prove that you're special. Type /kill to get rid of a person once per game!",
-						"killmsg": "Is it a bird? Is it a plane? It's Super Grover! Super Grover picks up ~Target~ and ascends. He then proceeds to drop his target who gets impaled on a lamp post. However ~Target~ is still breathing. Grover flies at super high speeds down to his target and smashes into him on the ground, crushing his skull taking another victim of the battle."
+						"killmsg": "Is it a bird? Is it a plane? It's Super Grover! Super Grover picks up ~Target~ and ascends. He then proceeds to drop his target who gets impaled on a lamp post. However ~Target~ is still breathing. Grover flies at super high speeds down to his target and smashes into him on the ground, crushing his skull. ~Target~ becomes yet another victim of the battle."
                     }
                 }
             }
@@ -522,7 +522,7 @@
                         "target": "AnyButSelf", 
 						"charges": 1,
                         "msg": "It's time to prove that you're special. Type /kill to get rid of a person once per game!",
-						"killmsg": "Is it a bird? Is it a plane? It's Super Grover! Super Grover picks up ~Target~ and ascends. He then proceeds to drop his target who gets impaled on a lamp post. However ~Target~ is still breathing. Grover flies at super high speeds down to his target and smashes into him on the ground, crushing his skull taking another victim of the battle."
+						"killmsg": "Is it a bird? Is it a plane? It's Super Grover! Super Grover picks up ~Target~ and ascends. He then proceeds to drop his target who gets impaled on a lamp post. However ~Target~ is still breathing. Grover flies at super high speeds down to his target and smashes into him on the ground, crushing his skull. ~Target~ becomes yet another victim of the battle."
                     }
                 }
             }
