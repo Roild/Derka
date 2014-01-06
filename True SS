@@ -6,6 +6,7 @@
 "drawmsg": "±Jerry Nelson: Sesame Street became vacant. A veritable ghost town. A shell of its former glory. May the remains of the inhabitants rest in peace.",
     "author": ["Roild", "Meloetta"],
 	"nonPeak": true,
+	"ticks": { "night": 35, "standby": 35},
 	"changelog": { "1.2.14": "New year. Yay. Anyway, found two mistakes. Abby1 roles weren't being flipped correctly (abby's first form to calculate distracts) and some village members had Team common. Not anymore",
 	"12.31.13": "Pretty extensive fix to prio kills, no more of a slower mafia trying to kill if he was already 'killed' that night. His action would still go through as dummy (a failed kill) for stalking purposes."},
 	"summary": "Now Sesame Street seems like a childish topic, but this is after the events of the show. Years passed, people grew up and had to get actual jobs. Big Bird became a politician, Cookie Monster has become a respected businessman, Ernie became a Private Detective, Elmo is trying to take over for him and Dorothy, his fish, Count and Grouch have become town pariahs, and more members are here to represent Sesame Street. If you find any problems, PM one of the theme authors, Roild or Meloetta / Marill / etc. Lynchmsg may change, not sure yet.",
@@ -12654,17 +12655,18 @@
 "grouch2",
 "bert",
 "ernie",
-"abby1"
+"abby1",
+"cookie"
 ],
 "roles3": [
 "count",
-{"elmo": 0.1, "dorothy":0.1},
-{"zoe": 0.1, "rosita": 0.1},
+"elmo",
+"dorothy",
+"abby1",
 "bert",
 "ernie",
 "cookie",
-"grouch1",
-"abby1"
+"grouch1"
 ],
 "roles4": [
 "count",
