@@ -300,8 +300,8 @@
             "role": "count",
             "translation": "Count",
             "side": "out",
-            "help": "As the arithmomic vampire of Sesame Street, you can't help but count all the people you've killed in your life. One, hahaha, two, hahaha.... seventy nine, hahaha! Use /kill to continue increasing the number! ",
-            "info": "Can Kill. Sided with Outcasts. ",
+            "help": "As the arithmetic vampire of Sesame Street, you can't help but count all the people you've killed in your life. One, hahaha, two, hahaha.... seventy nine, hahaha! Use /kill to continue increasing the number! ",
+            "info": "Fast Kill. Sided with Outcasts. ",
             "actions": {"copy": { "mode": "ignore", "msg": "No one visited your target."},
 			"teamTalk": true,
 						"startup": "team-reveal-with-roles",
@@ -448,14 +448,10 @@
             "translation": "Oscar the Grouch",
             "side": "out",
             "help": "The Count is dead! Now you can /kill during the night to rid Sesame Street of the real trash.",
-            "info": "Ignores Distract. Can Kill. Sided with Outcasts.",
+            "info": "Slow Kill. Sided with Outcasts.",
             "actions": {"copy": { "mode": "ignore", "msg": "No one visited your target."},
 			"teamTalk": true,
 						"startup": "team-reveal-with-roles",
-      "distract": {
-                    "mode": "ignore",
-                    "msg": "You are used to being surrounded by trash. Having a pungent smell discourages Abby from doing anything to you and you carried on with what you were doing."
-                    },
                 "night": {
                     "kill": {
                         "command": [
@@ -12652,7 +12648,7 @@
 ],
 "roles2": [
 {"elmo": 0.1, "dorothy": 0.1},
-"grouch2",
+{"grouch2": 0.1, "count": 0.1},
 "bert",
 "ernie",
 "abby1",
