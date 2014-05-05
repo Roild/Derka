@@ -4,7 +4,8 @@
 "closedSetup": true,
 "summary": "The time of the Circus is nigh; Poetry and death gone awry; Partake in the fun!; Never Overdone!; Watch as all your enemies die! ------ The theme revolves around packaged spawns. Almost every role (bar innocent child, neighbor, other 100% town roles) CAN be mafia. Inspectors can find sides and exposers will show roles, but an inspector can easily be Mafia too... use the /roles for ease of understanding abilities in case the help is a bit much.",
 "changelog": {
-"4.6.14": "Creation after thoughtful conjecture. Also adding poetry because why not."
+"4.6.14": "Creation after thoughtful conjecture. Also adding poetry because why not.",
+"5.5.14": "Decision to exclude some permutations for the sake of my sanity. Too many possible."
 },
 "variables": {
 "maf1kill": {"target": "AnyButTeam", "common": "Team", "priority": 10, "broadcast": "team"},
